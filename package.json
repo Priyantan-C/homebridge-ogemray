@@ -21,7 +21,7 @@
     "clean": "rimraf ./dist",
     "build": "rimraf ./dist && tsc",
     "test": "node --test",
-    "prepublishOnly": "npm run build"
+    "prepare": "npm run build"
   },
   "keywords": [
     "homebridge-plugin",
